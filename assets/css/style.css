@@ -1,0 +1,6 @@
+/* Ek stiller (Tailwind tamamlayıcı) */
+body{font-family:Inter,system-ui,'Segoe UI',Roboto,Arial,sans-serif}
+@media print{aside{display:none}main{padding:0}}
+input,select,textarea{outline:none}
+input:focus,select:focus{border-color:var(--renk,#0ea5e9);box-shadow:0 0 0 2px color-mix(in srgb,var(--renk,#0ea5e9) 25%,transparent)}
+.hero-grad{background:linear-gradient(135deg,#0f172a,#0c4a6e 60%,#0284c7)}
